@@ -31,6 +31,7 @@ body{
     top: 0;
     left: 0;
     right: 0;
+    z-index: 100;
 }
 #headerOne ul li, a {
     list-style: none;
@@ -66,15 +67,19 @@ body{
 .onlineOut {
     display: flex;
     justify-content: space-evenly;
-    width: 250px;
+    width: 300px;
     margin: 4px;
-    font-size: 16px;
+    font-size: 20px;
+}
+.onlineOut a:hover {
+    color: #d62bd2;
+    text-decoration: none;
 }
 .onlineOut li button a  {
     background-color: rgb(135, 203, 235);
-    color: #333;
+    color: rgb(212, 158, 107);
     text-decoration: none;
-    font-size: 12px;
+    font-size: 16px;
     padding: 8px;
     border: none;
     outline: none;
@@ -132,6 +137,7 @@ body{
     grid-template-rows: 350px 350px;
     row-gap: 10px;
     column-gap: 15px;
+
     /* padding-left: 15px;
     padding-right: 15px; */
 }
