@@ -10,7 +10,7 @@ if (window.localStorage.getItem('user_key') == null) {
     document.getElementById('happy').innerHTML = "<h2>Pleas login</h2>"
     document.getElementById('data_list').innerHTML = " ";
 }
-let dream = document.getElementById('sleepy');
-dream.innerHTML = "<h2>Đi Ngủ Đã</h2>"
-dream.style.color = "gray"
+// let dream = document.getElementById('sleepy');
+// dream.innerHTML = "<h2>Đi Ngủ Đã</h2>"
+// dream.style.color = "gray"
 

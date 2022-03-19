@@ -1,0 +1,1 @@
+document.getElementById('nameregister').innerHTML = window.localStorage.getItem('user_key')

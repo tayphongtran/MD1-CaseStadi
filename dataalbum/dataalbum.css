@@ -1,0 +1,39 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#headerOne , .headerList , .onlineOut {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8b1069;
+ }
+ ul, li {
+     list-style: none;
+ }
+ .headerList li a {
+     margin: 0 20px;
+     color: rgb(204, 211, 104);
+     padding: 12px 8px;
+     text-decoration: none;
+     line-height: 3;
+     margin-top: 10px;
+ }
+ .onlineOut li a {
+    margin: 0 20px;
+    color: rgb(214, 226, 38);
+    padding: 12px 8px;
+    text-decoration: none;
+    line-height: 1.5;
+
+ }
+ #headerOne .headerList li  a :hover {
+    background-color: #8b1069;
+    color: #fff;
+ }
+ .onlineOut li a:hover {
+     background-color: #c96daf;
+     color: #fff;
+ }
+ 
